@@ -7,114 +7,101 @@ h1 {
   font: 20px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif; 
   text-align: left;
   font-weight:normal;
-  color:#395870;
+  color:#245d88;
   }
 h2 {
   font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:700;
-  padding:5px 0 5px 0;
+  color:#477496;
+  margin-bottom: 10px;
   }
+h3{
+  font: 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:700;
+  color:#477496;
+  }
+hr {
+  border: none; 
+  background-color: #e7e7e9;
+  height: 3px; 
+}
 .vk{
     height: 40px;
     width: 40px;
   }
-.text1{
-    text-align: left;
-    font-weight: normal;
+small{
+  font: 11px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#7c7c7e;
+  font-weight: 500;
 }
-.c1 {
-  text-align: center;
-  margin: auto;
-}
-
-.foot {
+b {
+  font: 11px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#606061;
+  font-weight: 700;
+  padding-left: 5em;
   
-  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
-  color:#c6c7cc;
-  margin:10px 0 0 0;
-  }
-
-form {
-  border: 1px solid #c6c7cc;
-  border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  overflow: hidden;
-  width: 25%;
-  margin: 0 auto;
 }
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+
+.input-field{
+  margin-bottom: .3em;
+}
+.text1{
+  font: 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  line-height:12pt;
+  text-align: left;
+  font-weight: normal;
 }
 input {
-  height: 25pt;
-  border-radius: 5px;
+  height: 15pt;
+  border: 1px solid #808080;
+  border-radius: 2px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 0 15px 0;
-}
-select{
-  height: 25pt;
-}
-legend {
-  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding:5px 0 0 0;
-}
-.account-info {
-  padding: 20px 20px 0 20px;
-}
-.account-info label {
-  color: #395870;
-  display: block;
-  text-align: left;
-  font-weight: 700;
-  margin: 5px 0 5px 0
-}
-.account-info input {
-  background: #fff;
-  border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  color: #636466;
-
-  width: 100%;
-}
-.account-info select {
-  background: #fff;
-  border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  color: #636466;
-  text-indent:2%;
-  margin-bottom: 15px;
-}
-.account-action {
-  background: #f0f0f2;
-  border-top: 1px solid #c6c7cc;
-  padding: 20px 20px 30px 30px;
- 
-}
-.account-action .btn {
-  background: linear-gradient(#49708f, #293f50);
-  border: 0;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  margin-top: 10px;
-  height: 35px;
- 
-}
-.account-action label {
-  color: #7c7c80;
-  font-size: 11px;
-  display:block;
   
 }
-.account-action input {
-  height: 13px;
-  margin: 1px;;
+select{
+  height: 15pt;
+  border: 1px solid #808080;
 }
-
-input[type="text"], input[type="email"],  select, textarea {
-  width: 100%;
- 
+.account1, .account2, .account3, .account4, .account-action, .foot{
+  border:none;
+}
+.account1 label {
+  color: #747272;
+  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 5px 0 2px 0;
+  display: inline-block; 
+}
+.account2 {
+  color: #747272;
+  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 5px 0 2px 0;
+  display: inline-block; 
+}
+.account3 {
+  color: #747272;
+  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 5px 0 2px 0;
+  display: inline-block;
+}
+.account4 {
+  color: #747272;
+  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 5px 0 2px 0;
+  display: inline-block;
+}
+.account-action .btn {
+  height: 25px;
+  width: 150px;
+}
+a{
+  color:#245d88;
+  text-decoration: none;
+}
+.field2{
+  padding-bottom: 1px;
 }

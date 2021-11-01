@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Использование веб-форм на сайте</title>
+  <title>Регистрация Вконтакте</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,35 +19,47 @@
     <table>
       <tr>
         <th>
-<img class="vk" src="../images/VK-0.jpg">
+<img class="vk" src="../images/VK-0.jpg" alt="0">
         </th>
         <th class="text1">
-        <strong>Вконтакте.ру</strong> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг лиц, которым она будет доступна.
+        <strong>ВКонтакте.ру</strong> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас <br> окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете <br> делиться информацией, ограничивая круг лиц, которым она будет доступна.
         </th>
       </tr>
     </table>
-    <br>
-    <h1>Имя</h1>
-    <hr>
-    
-
-    <article class="c1">
-      
+    <h2>Имя</h2>
+        <hr>
        <form action="/signup" method="POST">
-        <fieldset class="account-info">
-          <legend>Для регистрации введите свои данные:</legend>
-          <label>Имя</label>
-          <input type="text" name="first_name">
-          <label>Фамилия</label>
-          <input type="text" name="last_name">
-          <label>Email</label>
-          <input type="text" required="required" class="email notnull">
-          <label>Телефон</label>
-          <input type="text" name="phone" required="required" class="notnull"
-            placeholder="+375 (код оператора) 111-11-11">
-          <label>Страна</label>
+        <fieldset class="account1">
+        <div class="field">
+          <label>Имя:
+            <input type="text" name="first_name" class="input-field">
+            <small>Допускаются только настоящие имя и фамилия</small>
+          </label>
+        </div>
+        <div class="field">
+          <label>Фамилия:
+            <input type="text" name="last_name" class="input-field">
+         <small>Остальные регистрации будут удаляться</small>
+          </label>
+        </div>
+        <div class="field">
+          <label>E-Mail:
+            <input type="email" name="e-mail" class="input-field">
+          </label>
+        </div>
+        <div class="field">
+          <label>Пароль:
+            <input type="password" name="password" class="input-field">
+          </label>
+        </div>
+      </fieldset>
+      <h2>Образование</h2>
+      <hr> 
+      <fieldset class="account2"> 
+      <div class="field">
+        <label>Страна:</label>
             <select name="country">
-              <option>Беларусь</option>
+              <option selected>Беларусь</option>
               <option>Россия</option>
               <option>Украина</option>
               <option>Польша</option>
@@ -56,29 +68,66 @@
               <option>Эстония</option>
               <option>США</option>
             </select>
-          <label>Пароль</label>
-          <input type="password" name="password">
-          <label>Подтвердите пароль</label>
-          <input type="password" name="password_confirm">
-          
-        </fieldset>
-        <fieldset class="account-action">
-          <label><input type="checkbox" name="ww_submit_confirm" checked>&nbsp;Отметьте для подтверждения согласия <a
-              href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
-              услуги</a></label>
-              <label><input type="checkbox" name="ww_submit_confirm" checked>&nbsp;Отметьте для согласия на обработку персональных данных в
-                соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
-                  обработке персональных данных</a></label>
-          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
-          </fieldset>
-      </form>
-    </article>
+      </div> 
+      <div class="field2">
+        <label>Город:</label>
+            <select name="country">
+              <option selected>Минск</option>
+              <option>Витебск</option>
+              <option>Гродно</option>
+              <option>Гомель</option>
+              <option>Брест</option>
+              <option>Могилев</option>
+              <option>Москва</option>
+              <option>Санкт-Петербург</option>
+            </select>
+            <br>
+            <b>Город, где Вы учились в школе или вузе: </b>
+      </div> 
+    </fieldset>
+    <h3>Школа</h3>
+      <hr> 
+    <fieldset class="account3"> 
+      <div class="field">
+        <label>Школа:</label>
+            <select name="school" >
+              <option selected>- Выберите школу-</option>
+              <option>Школа № 7</option>
+              <option>Школа № 14</option>
+              <option>Школа № 49</option>
+              <option>Школа № 51</option>
+              <option>Школа № 17</option>
+              <option>Школа № 15</option>
+              <option>Школа № 91</option>
+            </select>
+      </div> 
+    </fieldset>
+    <h3>Университет</h3>
+      <hr>
+    <fieldset class="account4">  
+      <div class="field">
+        <label>Вуз:</label>
+            <select name="university" >
+              <option selected>- Выберите ВУЗ-</option>
+              <option>БГУ</option>
+              <option>МГУ</option>
+              <option>БНТУ</option>
+              <option>БГУИР</option>
+              <option>МИТСО</option>
+            </select>
+      </div> 
+    </fieldset>
+    <fieldset class="account-action">
+        
+      <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+      </fieldset>
+    </form>
     <!--<aside>
       Тут могла быть ваша реклама
     </aside>-->
   </main>
   <footer class="foot">
-  &#169; 2021, Официальный сайт Сумаренко Алексея Михайловича
+    <small>Фактом регистрации Вы соглашаетесь С <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Пользовательским соглашением</a></small>
   </footer>
 </body>
 </html>
