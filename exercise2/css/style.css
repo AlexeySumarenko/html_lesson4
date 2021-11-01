@@ -1,0 +1,120 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1 {
+  font: 20px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif; 
+  text-align: left;
+  font-weight:normal;
+  color:#395870;
+  }
+h2 {
+  font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:700;
+  padding:5px 0 5px 0;
+  }
+.vk{
+    height: 40px;
+    width: 40px;
+  }
+.text1{
+    text-align: left;
+    font-weight: normal;
+}
+.c1 {
+  text-align: center;
+  margin: auto;
+}
+
+.foot {
+  
+  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color:#c6c7cc;
+  margin:10px 0 0 0;
+  }
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 25%;
+  margin: 0 auto;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  height: 25pt;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 0 15px 0;
+}
+select{
+  height: 25pt;
+}
+legend {
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding:5px 0 0 0;
+}
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  margin: 5px 0 5px 0
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+
+  width: 100%;
+}
+.account-info select {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  text-indent:2%;
+  margin-bottom: 15px;
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px 20px 30px 30px;
+ 
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  height: 35px;
+ 
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 11px;
+  display:block;
+  
+}
+.account-action input {
+  height: 13px;
+  margin: 1px;;
+}
+
+input[type="text"], input[type="email"],  select, textarea {
+  width: 100%;
+ 
+}
