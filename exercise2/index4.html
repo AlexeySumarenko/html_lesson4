@@ -31,33 +31,33 @@
        <form action="/signup" method="POST">
         <fieldset class="account1">
         <div class="field">
-          <label>Имя:
+          <label class="name">Имя:</label>
             <input type="text" name="first_name" class="input-field">
             <small>Допускаются только настоящие имя и фамилия</small>
-          </label>
+          
         </div>
         <div class="field">
-          <label>Фамилия:
+          <label class="name">Фамилия:</label>
             <input type="text" name="last_name" class="input-field">
          <small>Остальные регистрации будут удаляться</small>
-          </label>
+          
         </div>
         <div class="field">
-          <label>E-Mail:
+          <label class="name">E-Mail:</label>
             <input type="email" name="e-mail" class="input-field">
-          </label>
+        
         </div>
         <div class="field">
-          <label>Пароль:
+          <label class="name">Пароль: </label>
             <input type="password" name="password" class="input-field">
-          </label>
+         
         </div>
       </fieldset>
       <h2>Образование</h2>
       <hr> 
-      <fieldset class="account2"> 
+      <fieldset class="account1"> 
       <div class="field">
-        <label>Страна:</label>
+        <label class="name">Страна:</label>
             <select name="country">
               <option selected>Беларусь</option>
               <option>Россия</option>
@@ -70,7 +70,7 @@
             </select>
       </div> 
       <div class="field2">
-        <label>Город:</label>
+        <label class="name">Город:</label>
             <select name="country">
               <option selected>Минск</option>
               <option>Витебск</option>
@@ -81,8 +81,7 @@
               <option>Москва</option>
               <option>Санкт-Петербург</option>
             </select>
-            <br>
-            <b>Город, где Вы учились в школе или вузе: </b>
+            <div style="padding-left: 5%;" class="city">Город, где Вы учились в школе или вузе: </div>
       </div> 
     </fieldset>
     <h3>Школа</h3>

@@ -3,6 +3,11 @@
 *:after {
   box-sizing: border-box;
 }
+
+.name{
+    width: 5%;
+  text-align: right;
+}
 h1 {
   font: 20px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif; 
   text-align: left;
@@ -34,7 +39,7 @@ small{
   color:#7c7c7e;
   font-weight: 500;
 }
-b {
+.city {
   font: 11px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#606061;
   font-weight: 700;
