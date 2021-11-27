@@ -3,22 +3,39 @@
 *:after {
   box-sizing: border-box;
 }
+*{
+ 
+  margin-top:0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 h1 {
-  font: 20px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif; 
+  font-size: 13.5pt ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   font-weight:normal;
   color:#245d88;
+  padding-top: 7px;
+  padding-bottom: 17px;
+ 
   }
 h2 {
-  font: 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight:700;
   color:#477496;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
+  margin-top: 20px;
   }
 h3{
   font: 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:700;
   color:#477496;
+  }
+table {
+  padding-top:12px;
+  padding-left:4px;
   }
 hr {
   border: none; 
@@ -26,8 +43,10 @@ hr {
   height: 3px; 
 }
 .vk{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    margin-top: 4px;
   }
 small{
   font: 11px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -46,10 +65,11 @@ b {
   margin-bottom: .3em;
 }
 .text1{
-  font: 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  line-height:12pt;
+  font-size: 13px; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height:11.5pt;
   text-align: left;
-  font-weight: normal;
+  font-weight:100;
 }
 input {
   height: 15pt;
@@ -65,13 +85,16 @@ select{
 }
 .account1, .account2, .account3, .account4, .account-action, .foot{
   border:none;
+  
 }
 .account1 label {
   color: #747272;
-  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10pt ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  margin: 5px 0 2px 0;
+  margin: 15px 0 2px 0;
   display: inline-block; 
+  text-align: right;
 }
 .account2 {
   color: #747272;
