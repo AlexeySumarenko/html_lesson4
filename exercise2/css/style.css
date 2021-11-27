@@ -3,12 +3,20 @@
 *:after {
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 *{
  
   margin-top:0;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+=======
+
+.name{
+    width: 5%;
+  text-align: right;
+  height: 10px;
+>>>>>>> 7d432e041da4f2af65906d30a64c330131cfccbb
 }
 h1 {
   font-size: 13.5pt ;
@@ -53,11 +61,11 @@ small{
   color:#7c7c7e;
   font-weight: 500;
 }
-b {
+.city {
   font: 11px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#606061;
   font-weight: 700;
-  padding-left: 5em;
+  padding-left: 5%;
   
 }
 
@@ -76,10 +84,11 @@ input {
   border: 1px solid #808080;
   border-radius: 2px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0 0 15px 0;
+  
   
 }
 select{
+  width: 8%;
   height: 15pt;
   border: 1px solid #808080;
 }
@@ -119,7 +128,8 @@ select{
 }
 .account-action .btn {
   height: 25px;
-  width: 150px;
+  width: 10%;
+  margin-left: 2%;
 }
 a{
   color:#245d88;
@@ -127,4 +137,12 @@ a{
 }
 .field2{
   padding-bottom: 1px;
+}
+.foot{
+  margin-left: 2.5%;
+}
+.account-action{
+  height: 1%;
+  margin: 0;
+  padding: 0;
 }
