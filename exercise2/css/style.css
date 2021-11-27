@@ -3,20 +3,18 @@
 *:after {
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 *{
  
   margin-top:0;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-=======
-
+}
 .name{
     width: 5%;
   text-align: right;
   height: 10px;
->>>>>>> 7d432e041da4f2af65906d30a64c330131cfccbb
+
 }
 h1 {
   font-size: 13.5pt ;
