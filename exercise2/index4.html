@@ -30,34 +30,37 @@
         <hr>
        <form action="/signup" method="POST">
         <fieldset class="account1">
-        <div class="field">
-          <label class="name">Имя:</label>
+        <div class="field1">
+          <label>Имя:</label>
             <input type="text" name="first_name" class="input-field">
             <small>Допускаются только настоящие имя и фамилия</small>
           
         </div>
-        <div class="field">
-          <label class="name">Фамилия:</label>
+        <div class="field1">
+          <label>Фамилия:</label>
             <input type="text" name="last_name" class="input-field">
          <small>Остальные регистрации будут удаляться</small>
           
         </div>
-        <div class="field">
-          <label class="name">E-Mail:</label>
+        <div class="field1">
+          <label>E-Mail:</label>
             <input type="email" name="e-mail" class="input-field">
         
         </div>
-        <div class="field">
-          <label class="name">Пароль: </label>
+        <div class="field1">
+          <label>Пароль: </label>
             <input type="password" name="password" class="input-field">
          
         </div>
+        <div id="object1">
+          <h2>Образование</h2>
+        </div>
       </fieldset>
-      <h2>Образование</h2>
+      
       <hr> 
-      <fieldset class="account1"> 
-      <div class="field">
-        <label class="name">Страна:</label>
+      <fieldset class="account2"> 
+      <div class="field2">
+        <label>Страна:</label>
             <select name="country">
               <option selected>Беларусь</option>
               <option>Россия</option>
@@ -70,7 +73,7 @@
             </select>
       </div> 
       <div class="field2">
-        <label class="name">Город:</label>
+        <label>Город:</label>
             <select name="country">
               <option selected>Минск</option>
               <option>Витебск</option>
@@ -81,13 +84,15 @@
               <option>Москва</option>
               <option>Санкт-Петербург</option>
             </select>
-            <div class="city">Город, где Вы учились в школе или вузе: </div>
+            <div class="city1">Город, где Вы учились в школе или вузе: </div>
       </div> 
+      <div id="object2">
+        <h3>Школа</h3>
+      </div>
     </fieldset>
-    <h3>Школа</h3>
       <hr> 
-    <fieldset class="account1"> 
-      <div class="field">
+    <fieldset class="account3"> 
+      <div class="field3">
         <label class="name">Школа:</label>
             <select name="school" >
               <option selected>- Выберите школу-</option>
@@ -100,11 +105,13 @@
               <option>Школа № 91</option>
             </select>
       </div> 
+      <div id="object3">
+        <h3>Университет</h3>
+      </div>
     </fieldset>
-    <h3>Университет</h3>
       <hr>
-    <fieldset class="account1">  
-      <div class="field">
+    <fieldset class="account4">  
+      <div class="field4">
         <label class="name">Вуз:</label>
             <select name="university" >
               <option selected>- Выберите ВУЗ-</option>
@@ -120,7 +127,7 @@
         
       <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
       </fieldset>
-      <div class="city">
+      <div id="object4">
         Фактом регистрации Вы соглашаетесь С <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Пользовательским соглашением</a>
       </div>
       

@@ -10,12 +10,7 @@
   padding-top: 0;
   padding-bottom: 0;
 }
-.name{
-    width: 5%;
-  text-align: right;
-  height: 10px;
 
-}
 h1 {
   font-size: 13.5pt ;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -59,19 +54,11 @@ small{
   color:#7c7c7e;
   font-weight: 500;
 }
-.city {
-  font: 11px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#606061;
-  font-weight: 700;
-  padding-left: 5%;
-  
-}
 
-.input-field{
-  margin-bottom: .3em;
-}
+
+
 .text1{
-  font-size: 13px; 
+  font-size: 14px; 
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   line-height:11.5pt;
   text-align: left;
@@ -82,8 +69,6 @@ input {
   border: 1px solid #808080;
   border-radius: 2px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
-  
 }
 select{
   width: 8%;
@@ -91,56 +76,138 @@ select{
   border: 1px solid #808080;
 }
 .account1, .account2, .account3, .account4, .account-action, .foot{
-  border:none;
-  
+  border:none; 
+  margin:0;
+  padding:0; 
 }
-.account1 label {
+
+
+.account1 label{
+  width: 64px;
+  text-align: right;
+  height: 10px;
   color: #747272;
   font-size: 10pt ;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  margin: 15px 0 2px 0;
   display: inline-block; 
   text-align: right;
+  margin: 15px 0 2px 0;
 }
+.field1 {
+  margin-top: 4px;
+}
+.field1 input {
+ 
+  margin: 0;
+  padding: 0;
+  width: 171px;
+}
+#object1 {
+  margin-top: 55px;
+}
+
 .account2 {
   color: #747272;
-  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+
   font-weight: normal;
-  margin: 5px 0 2px 0;
-  display: inline-block; 
 }
+.account2 label {
+  width: 72px;
+  text-align: right;
+  color: #747272;
+  font-size: 10pt ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  display: inline-block; 
+  text-align: right;
+  margin-top: 16px;
+
+}
+.field2 select{
+ width: 165px;
+}
+.city1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  color:#606061;
+  font-weight: 700;
+  padding-left: 78px;
+  
+}
+#object2 {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+
 .account3 {
   color: #747272;
-  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
   font-weight: normal;
-  margin: 5px 0 2px 0;
-  display: inline-block;
 }
-.account4 {
+.account3 label {
+  width: 70px;
+  text-align: right;
   color: #747272;
-  font: 16px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10pt ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
-  margin: 5px 0 2px 0;
-  display: inline-block;
+  display: inline-block; 
+  text-align: right;
+  margin-top: 13px;
+}
+.field3 select{
+  width: 165px;
+ }
+ #object3 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.account4{
+  color: #747272;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+}
+.account4 label{
+  width: 70px;
+  text-align: right;
+  color: #747272;
+  font-size: 10pt ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  display: inline-block; 
+  text-align: right;
+  margin-top: 13px;
+}
+.account-action {
+  margin-top: 27px;
 }
 .account-action .btn {
   height: 25px;
-  width: 10%;
-  margin-left: 2%;
+  width: 209px;
+  margin-left: 32px;
+  padding: 0;
+}
+#object4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  color:#606061;
+  font-weight: 700;
+  padding-left: 31px;
+  
 }
 a{
   color:#245d88;
   text-decoration: none;
 }
-.field2{
-  padding-bottom: 1px;
-}
+
 .foot{
   margin-left: 2.5%;
-}
-.account-action{
-  height: 1%;
-  margin: 0;
-  padding: 0;
 }
