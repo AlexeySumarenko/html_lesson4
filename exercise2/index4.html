@@ -4,140 +4,132 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Регистрация Lexa Lox Вконтакте</title>
+  <title>Регистрация Вконтакте</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <h1>Регистрация</h1>
-    <!--<nav>
-      <a href="#" title="На главную">На главную</a>
-    </nav>-->
     <hr>
   </header>
   <main>
     <table>
       <tr>
         <th>
-<img class="vk" src="../images/Vkontakte.gif" alt="0">
+        <img class="vk" src="../images/Vkontakte.gif" alt="0">
         </th>
-        <th class="text1">
+        <th class="text">
         <strong>ВКонтакте.ру</strong> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас <br> окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете <br> делиться информацией, ограничивая круг лиц, которым она будет доступна.
         </th>
       </tr>
     </table>
+
     <h2>Имя</h2>
-        <hr>
-       <form action="/signup" method="POST">
-        <fieldset class="account1">
-        <div class="field1">
+    <hr>
+    <form action="/signup" method="POST">
+      <fieldset class="account-info">
+        <div>
           <label>Имя:</label>
-            <input type="text" name="first_name" class="input-field">
-            <small>Допускаются только настоящие имя и фамилия</small>
-          
+          <input type="text" name="first_name">
+          <small>Допускаются только настоящие имя и фамилия</small>
         </div>
-        <div class="field1">
+
+        <div>
           <label>Фамилия:</label>
-            <input type="text" name="last_name" class="input-field">
-         <small>Остальные регистрации будут удаляться</small>
-          
+          <input type="text" name="last_name">
+          <small>Остальные регистрации будут удаляться</small>
         </div>
-        <div class="field1">
+
+        <div>
           <label>E-Mail:</label>
-            <input type="email" name="e-mail" class="input-field">
-        
+          <input type="email" name="e-mail">
         </div>
-        <div class="field1">
-          <label>Пароль: </label>
-            <input type="password" name="password" class="input-field">
-         
-        </div>
-        <div id="object1">
-          <h2>Образование</h2>
+
+        <div>
+          <label>Пароль:</label>
+          <input type="password" name="password" >
         </div>
       </fieldset>
-      
-      <hr> 
-      <fieldset class="account2"> 
-      <div class="field2">
+          
+    <h2>Образование</h2>
+    <hr> 
+    <fieldset class="country-city"> 
+      <div>
         <label>Страна:</label>
-            <select name="country">
-              <option selected>Беларусь</option>
-              <option>Россия</option>
-              <option>Украина</option>
-              <option>Польша</option>
-              <option>Литва</option>
-              <option>Латвия</option>
-              <option>Эстония</option>
-              <option>США</option>
-            </select>
+        <select name="country">
+          <option selected>Беларусь</option>
+          <option>Россия</option>
+          <option>Украина</option>
+          <option>Польша</option>
+          <option>Литва</option>
+          <option>Латвия</option>
+          <option>Эстония</option>
+          <option>США</option>
+        </select>
       </div> 
-      <div class="field2">
+
+      <div>
         <label>Город:</label>
-            <select name="country">
-              <option selected>Минск</option>
-              <option>Витебск</option>
-              <option>Гродно</option>
-              <option>Гомель</option>
-              <option>Брест</option>
-              <option>Могилев</option>
-              <option>Москва</option>
-              <option>Санкт-Петербург</option>
-            </select>
-            <div class="city1">Город, где Вы учились в школе или вузе: </div>
-      </div> 
-      <div id="object2">
-        <h3>Школа</h3>
-      </div>
-    </fieldset>
-      <hr> 
-    <fieldset class="account3"> 
-      <div class="field3">
-        <label class="name">Школа:</label>
-            <select name="school" >
-              <option selected>- Выберите школу-</option>
-              <option>Школа № 7</option>
-              <option>Школа № 14</option>
-              <option>Школа № 49</option>
-              <option>Школа № 51</option>
-              <option>Школа № 17</option>
-              <option>Школа № 15</option>
-              <option>Школа № 91</option>
-            </select>
-      </div> 
-      <div id="object3">
-        <h3>Университет</h3>
-      </div>
-    </fieldset>
-      <hr>
-    <fieldset class="account4">  
-      <div class="field4">
-        <label class="name">Вуз:</label>
-            <select name="university" >
-              <option selected>- Выберите ВУЗ-</option>
-              <option>БГУ</option>
-              <option>МГУ</option>
-              <option>БНТУ</option>
-              <option>БГУИР</option>
-              <option>МИТСО</option>
-            </select>
+        <select name="city">
+          <option selected>Минск</option>
+          <option>Витебск</option>
+          <option>Гродно</option>
+          <option>Гомель</option>
+          <option>Брест</option>
+          <option>Могилев</option>
+          <option>Москва</option>
+          <option>Санкт-Петербург</option>
+        </select>
+        <div class="city">Город, где Вы учились в школе или вузе: </div>
       </div> 
     </fieldset>
+
+    <h3>Школа</h3>
+    <hr> 
+    <fieldset class="school"> 
+      <div>
+        <label>Школа:</label>
+        <select>
+          <option selected>- Выберите школу-</option>
+          <option>Школа № 7</option>
+          <option>Школа № 14</option>
+          <option>Школа № 49</option>
+          <option>Школа № 51</option>
+          <option>Школа № 17</option>
+          <option>Школа № 15</option>
+          <option>Школа № 91</option>
+        </select>
+      </div> 
+    </fieldset>
+
+    <h3>Университет</h3>
+    <hr>
+    <fieldset class="University">  
+      <div>
+        <label>Вуз:</label>
+        <select>
+          <option selected>- Выберите ВУЗ-</option>
+          <option>БГУ</option>
+          <option>МГУ</option>
+          <option>БНТУ</option>
+          <option>БГУИР</option>
+          <option>МИТСО</option>
+        </select>
+      </div> 
+    </fieldset>
+
     <fieldset class="account-action">
-        
       <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
-      </fieldset>
-      <div id="object4">
-        Фактом регистрации Вы соглашаетесь С <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Пользовательским соглашением</a>
-      </div>
+    </fieldset>
+    <div class="agreement">
+      Фактом регистрации Вы соглашаетесь c <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Пользовательским соглашением</a>
+    </div>
       
     </form>
     <!--<aside>
       Тут могла быть ваша реклама
     </aside>-->
   </main>
-  
-   
   
 </body>
 </html>
