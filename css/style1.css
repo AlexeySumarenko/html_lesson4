@@ -80,9 +80,11 @@ legend {
 }
 #password1 {
   height: 34px;
+  text-indent: 5px;
 }
 #password2 {
   height: 34px;
+  text-indent: 5px;
   margin-bottom: 14px;
 }
 .account-info select {
@@ -117,6 +119,8 @@ legend {
   color: #7c7c80;
   font-size: 11px;
   display:block;
+  margin-top: 10px;
+  margin-left: 14px;
 }
 .account-action input {
   height: 13px;
